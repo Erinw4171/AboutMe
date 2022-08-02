@@ -2,7 +2,7 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
-        <link href="script.js" rel="stylesheet">
+        <link href="script.js" type="text/Javascript">
         <title>Erin White's About Me</title>
     </head>
     <body>
@@ -26,16 +26,18 @@
 
         <main>
             
-            <h1>Erin White</h1><br>
+            <h1 class="name" id="name">Erin White</h1><br>
 
             <img src="Images/Erin.jpg">
+
+            <button type="submit" id="btn" name="formBtn">Click Me</button>
 
             <section class="about-me">
 
               <h2 class="about-me"><a id="about"> About Me</a></h2>
 
 
-              <p class ="bio"> Hi, my name's Erin. 
+              <p class ="bio" id="bio"> Hi, my name's Erin. 
                   During my downtime in 2020, I decided to give coding a try. I dipped my toes
                   in the water and realized I quite enjoyed it. So I decided to take a computer
                   programming certificate course through Colorado State University's Global campus,
@@ -67,6 +69,6 @@
 
 
         </main>
-
+        <script src='script.js'></script>
     </body>
 </html>
